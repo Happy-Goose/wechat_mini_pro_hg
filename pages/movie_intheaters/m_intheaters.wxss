@@ -1,0 +1,4 @@
+/* pages/movie_intheaters/m_intheaters.wxss */
+.slide-image{
+  width:100%;
+}

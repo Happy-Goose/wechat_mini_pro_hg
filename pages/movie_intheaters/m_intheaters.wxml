@@ -1,0 +1,12 @@
+<!--pages/movie_intheaters/m_intheaters.wxml-->
+<import src="../movie_template/m_template.wxml" />
+
+<swiper indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}">
+  <block wx:for="{{swiper.imageUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<template is="m_list" data="{{list}}" />

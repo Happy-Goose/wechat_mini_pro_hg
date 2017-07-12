@@ -1,0 +1,69 @@
+/**app.wxss**/
+
+/* 每个列表项容器 */
+
+.m-list-container {
+  margin: 4%;
+  float: left;
+  min-width: 92%;
+}
+
+/* 电影海报容器 */
+
+.m-image-container {
+  width: 30%;
+  float: left;
+}
+
+/* 海报图片 */
+
+.m-post-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+}
+
+/* 电影文本容器 */
+
+.m-text-container {
+  float: left;
+  width: 50%;
+}
+
+/* 电影名称 */
+
+.m-title {
+  float: left;
+  width: 100%;
+  font-family: SimHei;
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* 电影类型 */
+
+.m-type {
+  float: left;
+  font-family: SimHei;
+  font-size: 16px;
+  color: gray;
+  padding: 10px;
+}
+
+/* 电影评分容器 */
+
+.m-rate-container {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+/* 电影评分文本 */
+
+.m-rate {
+  font-size: 32px;
+  float: left;
+  color: red;
+  padding-top: 20px;
+}

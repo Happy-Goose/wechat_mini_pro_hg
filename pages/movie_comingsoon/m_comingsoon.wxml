@@ -1,0 +1,3 @@
+<!--pages/movie/m_comingsoon.wxml-->
+<import src="../movie_template/m_template.wxml" />
+<template is="m_list" data="{{list}}" />

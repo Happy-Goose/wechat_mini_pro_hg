@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/movie_intheaters/m_intheaters",
+    "pages/movie_comingsoon/m_comingsoon",
+    "pages/movie_template/m_template",    
+    "pages/movie_subject/m_subject"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FF4B71",
+    "navigationBarTitleText": "大鹅电影",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#29ACFF",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#b9b9b9",
+    "selectedColor": "#8dd88c",
+    "backgroundColor": "#FF4B71",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/movie_intheaters/m_intheaters",
+        "text": "正在热映",
+        "iconPath":"images/t_1_1.png",
+        "selectedIconPath":"images/t_1_2.png"
+      },
+      {
+        "pagePath": "pages/movie_comingsoon/m_comingsoon",
+        "text": "即将上映",
+        "iconPath": "images/t_2_1.png",
+        "selectedIconPath": "images/t_2_2.png"
+      }
+    ]
+  }
+}

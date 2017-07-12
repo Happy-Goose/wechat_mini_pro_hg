@@ -1,0 +1,17 @@
+<!--pages/movie_template/m_template.wxml-->
+<template name="m_list">
+  <block wx:for="{{list.movieinfo}}">
+    <view class="m-list-container" bindtap="subject" data-movieid="{{item.id}}">      
+      <view class="m-image-container">
+        <image class="m-post-image" src="{{item.images.medium}}"></image>
+      </view>
+      <view class="m-text-container">
+        <text class="m-title">{{item.title}}</text>
+        <text class="m-type">{{item.genres}}</text>
+      </view>
+      <view class="m-rate-container">
+        <text class="m-rate">{{item.rating.average}}</text>
+      </view>      
+    </view>
+  </block>
+</template>
