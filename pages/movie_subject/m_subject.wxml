@@ -1,13 +1,10 @@
 <!--pages/movie_subject/m_subject.wxml-->
-<view class="m-list-container">      
-  <view class="m-image-container">
-    <image class="m-post-image" src="{{movieinfo.images.medium}}"></image>
+<view class="m-base-container">      
+  <view class="m-base-l-container">
+    <image class="m-base-post-image" src="{{movieinfo.images.medium}}"></image>
   </view>
-  <view class="m-text-container">
-    <text class="m-title">{{movieinfo.title}}</text>
-    <text class="m-type">{{movieinfo.genres}}</text>
-  </view>
-  <view class="m-rate-container">
-    <text class="m-rate">{{movieinfo.rating.average}}</text>
-  </view>      
+  <view class="m-base-r-container">
+    <text class="m-base-title">{{movieinfo.title}}</text>
+    <text class="m-base-type">{{movieinfo.genres}}</text>
+  </view>       
 </view>
