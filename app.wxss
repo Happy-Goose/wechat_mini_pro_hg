@@ -39,6 +39,9 @@
   font-family: Microsoft Yahei;
   font-size: 18px;
   padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* 电影类型 */
@@ -120,6 +123,9 @@
   color: #ff4b71;
   display: block;
   padding-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* 电影条目信息-电影原名 */
@@ -128,6 +134,9 @@
   font-size: 12px;
   color: #fba1b4;
   display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* 电影条目信息-电影类型 */
