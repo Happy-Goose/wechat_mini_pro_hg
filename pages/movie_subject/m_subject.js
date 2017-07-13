@@ -12,11 +12,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var movieid = wx.getStorageSync('movieid');
-    console.log(movieid);
+    var movieid = options.movieid;
     //显示加载框
     wx.showLoading({
-      title: '大鹅又在贴海报'
+      title: '大鹅忙着擦眼镜'
     })
     //保存this 否则发完请求this指向改变
     var that = this;

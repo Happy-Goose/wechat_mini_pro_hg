@@ -36,8 +36,8 @@
 .m-title {
   float: left;
   width: 100%;
-  font-family: SimHei;
-  font-size: 22px;
+  font-family: Microsoft Yahei;
+  font-size: 18px;
   padding: 10px;
 }
 
@@ -45,7 +45,7 @@
 
 .m-type {
   float: left;
-  font-family: SimHei;
+  font-family: Microsoft Yahei;
   font-size: 16px;
   color: gray;
   padding: 10px;
@@ -56,7 +56,7 @@
 .m-rate-container {
   float: left;
   width: 20%;
-  text-align: center;
+  text-align: right;
 }
 
 /* 电影评分文本 */
@@ -66,4 +66,110 @@
   float: left;
   color: red;
   padding-top: 20px;
+  width: 100%;
+}
+
+/* 电影条目信息-文本背景 */
+
+.m-subject-text-bg {
+  background-color: #29acff;
+  float: left;
+}
+
+/* 电影条目信息-电影海报 */
+
+.m-subject-post-image {
+  width: 100%;
+}
+
+/* 电影条目信息-列表每行 */
+
+.m-subject-row {
+  font-family: Microsoft Yahei;
+  float: left;
+  padding: 4%;
+  min-width: 92%;
+}
+
+/* 电影条目信息-75宽度 */
+
+.m-subject-75-container {
+  width: 75%;
+  float: left;
+}
+
+/* 电影条目信息-25宽度 */
+
+.m-subject-25-container {
+  width: 25%;
+  float: left;
+  text-align: right;
+}
+
+/* 电影条目信息-50宽度 */
+
+.m-subject-50-container {
+  width: 50%;
+  float: left;
+}
+
+/* 电影条目信息-电影名称 */
+
+.m-subject-title {
+  font-size: 20px;
+  color: #ff4b71;
+  display: block;
+  padding-bottom: 10px;
+}
+
+/* 电影条目信息-电影原名 */
+
+.m-subject-original-title {
+  font-size: 12px;
+  color: #fba1b4;
+  display: block;
+}
+
+/* 电影条目信息-电影类型 */
+
+.m-subject-genres {
+  color: white;
+  font-size: 14px;
+}
+
+/* 电影条目信息-生产国家 */
+
+.m-subject-countries {
+  color: white;
+  font-size: 14px;
+}
+
+/* 电影条目信息-电影评分 */
+
+.m-subject-rate {
+  color: #ff4646;
+  font-size: 40px;
+}
+
+/* 电影条目信息-电影数据 */
+
+.m-subject-p-i {
+  color: #cbcbcb;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+}
+
+/* 电影条目信息-电影简介 */
+
+.m-subject-summary {
+  font-size: 14px;
+  color: white;
+}
+
+/* 电影条目信息-文本居右 */
+
+.m-text-align-r {
+  text-align: right;
 }

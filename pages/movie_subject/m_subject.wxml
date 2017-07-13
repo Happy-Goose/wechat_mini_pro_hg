@@ -1,10 +1,43 @@
 <!--pages/movie_subject/m_subject.wxml-->
-<view class="m-base-container">      
-  <view class="m-base-l-container">
-    <image class="m-base-post-image" src="{{movieinfo.images.medium}}"></image>
+  
+<image class="m-subject-post-image" src="{{movieinfo.images.large}}" mode="widthFix"></image>
+
+<view class="m-subject-text-bg">
+
+  <view class="m-subject-row">
+    <view class="m-subject-75-container">
+      <text class="m-subject-title">{{movieinfo.title}}</text>
+      <text class="m-subject-original-title">{{movieinfo.original_title}}</text>
+    </view>    
+    <view class="m-subject-25-container">
+      <text class="m-subject-rate">{{movieinfo.rating.average}}</text>
+    </view>
   </view>
-  <view class="m-base-r-container">
-    <text class="m-base-title">{{movieinfo.title}}</text>
-    <text class="m-base-type">{{movieinfo.genres}}</text>
-  </view>       
+  
+  <view class="m-subject-row">
+    <view class="m-subject-75-container">
+      <text class="m-subject-genres">{{movieinfo.genres}}</text>
+    </view>    
+    <view class="m-subject-25-container">
+      <text class="m-subject-countries">{{movieinfo.countries}}</text>
+    </view>
+  </view>
+
+  <view class="m-subject-row">
+    <view class="m-subject-50-container">
+      <text class="m-subject-p-i">{{movieinfo.ratings_count }}人评分</text>
+      <text class="m-subject-p-i">{{movieinfo.reviews_count}}条影评</text>
+    </view>    
+    <view class="m-subject-50-container m-text-align-r">
+      <text class="m-subject-p-i">{{movieinfo.wish_count}}人想看</text>
+      <text class="m-subject-p-i">{{movieinfo.collect_count}}人看过</text>
+    </view>
+  </view>
+  
+  <view class="m-subject-row">
+    <text class="m-subject-summary">{{movieinfo.summary}}</text>
+  </view>
+  
 </view>
+
+          

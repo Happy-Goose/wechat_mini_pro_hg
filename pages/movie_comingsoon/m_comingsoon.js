@@ -6,7 +6,7 @@ Page({
    */
   data: {
     //电影列表组件
-    list: {      
+    list: {
       movieinfo: [],//豆瓣API返回电影信息
       start: 0,//起始条数
       count: 20,//每次返回条数
@@ -58,28 +58,28 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-  
+
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-  
+
   },
 
   /**
@@ -168,6 +168,15 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+
+  },
+
+  /** 
+  * 显示电影详情
+  */
+  subject: function (event) {
+    wx.navigateTo({
+      url: '../../pages/movie_subject/m_subject?movieid=' + event.currentTarget.dataset.movieid
+    })
   }
 })

@@ -43,10 +43,16 @@ Page({
       },    
       success: function (resp) {
         //设置滑动图片
-        var i0 = resp.data.subjects[0].images.large;
-        var i1 = resp.data.subjects[1].images.large;
-        var i2 = resp.data.subjects[2].images.large;        
-        that.data.swiper.imageUrls = [i0, i1, i2];
+        var o1 = {};
+        o1.id = resp.data.subjects[0].id;
+        o1.img = resp.data.subjects[0].images.large;
+        var o2 = {};
+        o2.id = resp.data.subjects[1].id;
+        o2.img = resp.data.subjects[1].images.large;
+        var o3 = {};
+        o3.id = resp.data.subjects[2].id;
+        o3.img = resp.data.subjects[2].images.large;            
+        that.data.swiper.imageUrls = [o1, o2, o3];
         //更新视图层
         that.setData({
           'swiper.imageUrls': that.data.swiper.imageUrls,
@@ -117,10 +123,16 @@ Page({
       },
       success: function (resp) {
         //设置滑动图片
-        var i0 = resp.data.subjects[0].images.large;
-        var i1 = resp.data.subjects[1].images.large;
-        var i2 = resp.data.subjects[2].images.large;
-        that.data.swiper.imageUrls = [i0, i1, i2];
+        var o1 = {};
+        o1.id = resp.data.subjects[0].id;
+        o1.img = resp.data.subjects[0].images.large;
+        var o2 = {};
+        o2.id = resp.data.subjects[1].id;
+        o2.img = resp.data.subjects[1].images.large;
+        var o3 = {};
+        o3.id = resp.data.subjects[2].id;
+        o3.img = resp.data.subjects[2].images.large;
+        that.data.swiper.imageUrls = [o1, o2, o3];
         //更新视图层
         that.setData({
           'swiper.imageUrls': that.data.swiper.imageUrls,
